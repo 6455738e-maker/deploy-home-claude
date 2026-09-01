@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(Get-ChildItem *)",
+      "Bash(ls *)",
+      "PowerShell(cd 'C:\\\\claude_1900_ksh\\\\workspace\\\\claude2\\\\day01'; $env:PRISMA_SKIP_VALIDATION_WARNING=\"true\"; npx prisma migrate resolve --applied init; npx prisma db push --skip-generate)",
+      "Bash(xargs cat)",
+      "PowerShell(cd 'C:\\\\claude_1900_ksh\\\\workspace\\\\claude2\\\\day01'; $env:PORT=8000; node todo.js)",
+      "PowerShell(cd 'C:\\\\claude_1900_ksh\\\\workspace\\\\claude2\\\\day01'; $env:PORT=8000; node todo.js 2>&1)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "prisma"
+  ]
+}
